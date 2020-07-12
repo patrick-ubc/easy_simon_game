@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simon Game</title>
+    <link href='./simon.css' type='text/css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class='head'>
+      <h3>Simon Games</h3>
+    </div>
+    <table class='box'>
+      <tr>
+        <td id='red'>0</td>
+        <td id='blue'>1</td>
+      </tr>
+      <tr>
+        <td id='green'>2</td>
+        <td id='yellow'>3</td>
+      </tr>
+    </table>
+    <table class='streak'>
+      <tr>
+        <td colspan="2" id='luck'>good luck</td>
+      </tr>
+      <tr>
+        <td>current streak</td>
+        <td id='current_streak'>0</td>
+      </tr>
+      <tr>
+        <td>best streak</td>
+        <td id='best_streak'>0</td>
+    </table>
+    <p id='copy_right'>&copy;<a>patrick's masterpiece</a></p>
+    <script src='./simon.js'></script>
+  </body>
+</html>

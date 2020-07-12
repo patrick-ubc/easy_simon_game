@@ -1,0 +1,46 @@
+#red{
+  background-color:red;
+  color: red;
+}
+#blue{
+  background-color:blue;
+  color:blue;
+}
+#green{
+  background-color:green;
+  color:green
+}
+#yellow{
+  background-color:yellow;
+  color:yellow;
+}
+.box{
+  margin:0 auto;
+	width:400px;
+  height:400px;
+}
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+.streak{
+  margin:0 auto;
+  width:400px;
+  height:200px;
+  font-size:30px;
+  color: #00ffff;
+}
+.head{
+  text-align: center;
+  font-size:30px;
+  background-color: chartreuse;
+}
+#copy_right{
+  color:white;
+  text-align:center;
+  width:100%;
+  background-color: green;
+}
+#luck{
+  text-align: center;
+}
